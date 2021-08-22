@@ -1,0 +1,22 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "TodoApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "rundb": "mongod --dbpath \"C:\\data\\db\""
+  },
+  "author": "Enzo",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
