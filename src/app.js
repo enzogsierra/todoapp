@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 // Connect
 const app = express();
 const indexRoutes = require("./routes/index");
-mongoose.connect("mongodb://localhost/crud-mongo", {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect("mongodb+srv://enzo:enzo@todoapp.xyrhz.mongodb.net/todoapp?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true})
     .then(db => console.log("success"))
     .catch(err => console.log("error"));
 
